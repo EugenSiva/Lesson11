@@ -11,5 +11,5 @@ class Student():
 
 
 eugen = Student(name="Eugen", age=36, country="Slovensko")
-json_object = json.dumps(eugen.__dict__)
-print(json_object)
+with open("eugen.json","w") as fileHandler:
+    json.dump(eugen.__dict__, fileHandler)

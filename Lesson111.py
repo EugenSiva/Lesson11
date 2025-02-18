@@ -25,9 +25,9 @@ class Prvok:
         self.dalsi_prvok = None
 
 
-prvok1 = Prvok(10)
-prvok2 = Prvok("Patrik")
-prvok3 = Prvok(32.1)
+prvok1 = Prvok(15)
+prvok2 = Prvok("Eugen")
+prvok3 = Prvok(23.8)
 
 moj_zoznam = LinkedList()
 moj_zoznam.vloz_prvok(prvok1)

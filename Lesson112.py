@@ -69,7 +69,7 @@ class LinkedList:
 moj_zoznam = LinkedList()
 
 while True:
-    print("\nMenu:")
+    print("Menu:")
     print("1. Pridať prvok")
     print("2. Vymazať prvok")
     print("3. Zobraziť zoznam")
